@@ -278,7 +278,7 @@ const Footer = ({ setValue, setSelectedIndex }) => {
               component={"a"}
               target="_blank"
               rel="noreferrer noopener"
-              href="https://github.com/SatoruAkiyama"
+              href="https://github.com/SatoruAkiyama/material-ui-header-and-footer/"
             >
               <GitHubIcon className={classes.snsIcon} />
             </Grid>
