@@ -1,6 +1,7 @@
 import { createMuiTheme } from "@material-ui/core/styles";
 
 const red = "#ff1466";
+const blue = "#6a00f4";
 const orange = "#ffb900";
 const gray = "#818181";
 
@@ -9,9 +10,10 @@ export default createMuiTheme({
     common: {
       red: red,
       orange: orange,
+      blue: blue,
     },
     primary: {
-      main: red,
+      main: blue,
     },
     secondary: {
       main: orange,
@@ -35,32 +37,32 @@ export default createMuiTheme({
       fontFamily: "Robbot",
       fontWeight: 700,
       fontSize: "3.5rem",
-      color: red,
+      color: blue,
       lineHeight: 1.5,
     },
     h2: {
       fontFamily: "Robbot",
       fontWeight: 700,
       fontSize: "2.5rem",
-      color: red,
+      color: blue,
       lineHeight: 1.5,
     },
     h3: {
       fontFamily: "Robbot",
       fontSize: "2.25rem",
-      color: red,
+      color: blue,
       fontWeight: 700,
     },
     h4: {
       fontFamily: "Robbot",
       fontSize: "1.75rem",
-      color: red,
+      color: blue,
       fontWeight: 700,
     },
     h6: {
       fontFamily: "Robbot",
       fontSize: "1rem",
-      color: red,
+      color: blue,
       fontWeight: 500,
       lineHeight: 1,
     },
@@ -81,8 +83,8 @@ export default createMuiTheme({
       fontFamily: "Robbot",
     },
     learnButton: {
-      borderColor: red,
-      color: red,
+      borderColor: blue,
+      color: blue,
       borderWidth: 2,
       textTransform: "none",
       borderRadius: 50,
@@ -90,7 +92,7 @@ export default createMuiTheme({
       width: "145px",
       "&:hover": {
         color: "#fff",
-        backgroundColor: red,
+        backgroundColor: blue,
       },
     },
     caption: {

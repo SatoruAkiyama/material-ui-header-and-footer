@@ -20,7 +20,7 @@ import HomeIcon from "@material-ui/icons/Home";
 
 const useStyles = makeStyles((theme) => ({
   footer: {
-    backgroundColor: theme.palette.common.red,
+    backgroundColor: theme.palette.primary.main,
     width: `100%`,
     position: "relative",
     overflow: "hidden",
