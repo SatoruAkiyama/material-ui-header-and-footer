@@ -134,7 +134,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   drawer: {
-    backgroundColor: theme.palette.common.red,
+    backgroundColor: theme.palette.primary.main,
   },
   drawerItemText: {
     ...theme.typography.tab,
@@ -149,12 +149,12 @@ const useStyles = makeStyles((theme) => ({
     color: "#fff",
     opacity: "1",
   },
-  drawerItemEstimate: {
-    backgroundColor: theme.palette.common.orange,
-    "&:hover": {
-      backgroundColor: theme.palette.secondary.light,
-    },
-  },
+  // drawerItemEstimate: {
+  //   backgroundColor: theme.palette.common.orange,
+  //   "&:hover": {
+  //     backgroundColor: theme.palette.secondary.light,
+  //   },
+  // },
   appBar: {
     zIndex: theme.zIndex.modal + 1,
   },
